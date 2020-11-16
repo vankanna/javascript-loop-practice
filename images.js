@@ -23,8 +23,11 @@ $(document).ready(function () {
          addImageToDiv("#while-loop");
         */
 
-
-
+        var i=0;
+        while(i<num+1) {
+            addImageToDiv("#while-loop");
+            i++;
+        }
 
 
         /*
@@ -33,10 +36,11 @@ $(document).ready(function () {
          The body of the loop should contain the statement:
          addImageToDiv("#do-while-loop");
         */
-
-
-
-
+        var j = 0;
+        do {
+            addImageToDiv("#do-while-loop");
+            j++;
+        } while(j < num -1);
 
         /*
          Create a for loop that runs exactly "num" times.
@@ -45,8 +49,9 @@ $(document).ready(function () {
          addImageToDiv("#for-loop");
         */
 
-
-
+        for (var k = 0; k < num; k++) {
+            addImageToDiv("#for-loop");
+        }
 
 
     }
